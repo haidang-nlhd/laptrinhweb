@@ -1,0 +1,85 @@
+/* style.css - Đã tinh chỉnh để giống mẫu nhất */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Khung giả lập cửa sổ trình duyệt */
+.browser-mockup {
+    width: 650px;
+    border: 1px solid #999;
+    padding: 5px;
+    position: relative;
+    background: #fff;
+}
+
+/* Thanh địa chỉ giả */
+.address-bar {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+}
+
+/* Header và Footer (Khung đen mảnh) */
+.nav-header, .page-footer {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+/* Khung nội dung chính màu xám nhạt */
+.main-box {
+    border: 1px solid #999;
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    min-height: 250px;
+    background-color: #fcfcfc; /* Màu nền xám nhạt giống mẫu */
+}
+
+.main-box h3 {
+    text-align: center;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* Cấu trúc hàng nhập liệu */
+.input-row {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.input-row label {
+    width: 120px;
+    font-size: 14px;
+}
+
+.input-row input {
+    flex: 1;
+    border: 1px solid #333;
+    padding: 4px;
+}
+
+/* Nút bấm xanh đậm */
+.btn-action {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+}
